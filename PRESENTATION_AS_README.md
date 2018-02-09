@@ -91,11 +91,17 @@ commands:
 2. -p [host:container]: Map host port to container port.
 3. --name [name]: Name of the container to run this image in.
 4. -t: open terminal in container
+5. --rm: Remove the container as soon as it
+6. --env: Pass an environment variable to the container
+
+**there are more commands but it's better to explain them using a Dockerfile**
 
 e.g. docker run hello-world
 e.g. docker run docker/whalesay cowsay moo
 e.g. docker run -d --name server httpd
 e.g. docker run --name ubuntuAA -it ubuntu:17.10
+e.g. docker run --rm hello-world
+e.g. docker run --env MYVAR=Rohit ubuntu:17.10
 ```
 
 ### View Image content

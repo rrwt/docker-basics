@@ -289,11 +289,28 @@ export default () => {
                   </p>
                 </li>
                 <li>
-                  <h4>-t</h4>
-                  <p>open terminal in container</p>
+                  <h4>-it</h4>
+                  <p>open an interactive terminal in a running container</p>
                   <p>
                     e.g. docker run --name stevemcqueen -it ubuntu:17.10
                   </p>
+                </li>
+                <li>
+                  <h4>--rm</h4>
+                  <p>Delete the container as soon as it stops</p>
+                  <p>
+                    e.g. docker run --rm hello-world
+                  </p>
+                </li>
+                <li>
+                  <h4>--env</h4>
+                  <p>Pass environment variables to the container</p>
+                  <p>
+                    e.g. docker run --env MYVAR=Rohit ubuntu:17.10
+                  </p>
+                </li>
+                <li>
+                  *there are more commands but it's better to explain them using a Dockerfile
                 </li>
               </ol>
             </li>
