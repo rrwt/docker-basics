@@ -155,7 +155,7 @@ export default () => {
                     e.g. docker images --filter "before=hello-world" (shows all the images downloaded before this one)
                   </p>
                   <p>
-                    e.g. docker images --filter "after=docker/whalesay" (after)
+                    e.g. docker images --filter "since=docker/whalesay" (after)
                   </p>
                 </li>
               </ol>
@@ -292,7 +292,7 @@ export default () => {
                   <h4>-t</h4>
                   <p>open terminal in container</p>
                   <p>
-                    e.g. docker run --name stevemcqueen -d -t ubuntu:17.10
+                    e.g. docker run --name stevemcqueen -it ubuntu:17.10
                   </p>
                 </li>
               </ol>

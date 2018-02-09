@@ -49,7 +49,7 @@ commands:
 3. -q: show only numeric ids
 4. --filter: To filter the output.
     e.g. docker images --filter "before=hello-world" (shows all the images downloaded before this one)
-    e.g. docker images --filter "after=docker/whalesay" (after)
+    e.g. docker images --filter "since=docker/whalesay" (after)
 5. --no-trunc: Do not trunc the image id
 ```
 
@@ -95,7 +95,7 @@ commands:
 e.g. docker run hello-world
 e.g. docker run docker/whalesay cowsay moo
 e.g. docker run -d --name server httpd
-e.g. docker run --name stevemcqueen -d -t ubuntu:17.10
+e.g. docker run --name ubuntuAA -it ubuntu:17.10
 ```
 
 ### View Image content
