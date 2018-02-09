@@ -1,0 +1,40 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+}
+
+.component {
+    height: 100%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+button {
+    background: none!important;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    font-size: 20px;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    margin: 10px;
+}

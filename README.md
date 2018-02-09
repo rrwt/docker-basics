@@ -34,10 +34,9 @@ commands:
     It has following flags:
 ```
 1. -a: Pull all the tagged images in the repo
-      e.g. docker pull hello-world
-      e.g. docker pull docker/whalesay
       e.g. docker pull -a python
 2. --disable-content-trust: to trust an unsigned image
+      e.g. docker pull --disable-content-trust hello-world
 ```
 
 ### See pulled images
@@ -57,7 +56,7 @@ commands:
 ### See image layers
 
 commands:
-- **docker image history [OPTIONS] IMAGE**. See different layers image was built with
+- **docker image history [OPTIONS] IMAGE** See different layers image was built with
 
 
 ### save/remove an image in/from a tar file
